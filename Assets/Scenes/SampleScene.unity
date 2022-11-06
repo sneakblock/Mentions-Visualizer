@@ -123,6 +123,57 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &214547546 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: c5cebd4f52c63864ab6f6bec69a65893,
+    type: 3}
+  m_PrefabInstance: {fileID: 1628090494}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &214547550
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 214547546}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d3c674de8d1eb604ab9b8cfd28565495, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  syncBand: 0
+  ReactorFacets:
+  - Param: 0
+    MinValue: 0
+    MaxValue: 1
+    RestingValue: 1
+    IsActive: 0
+    Owner: {fileID: 0}
+  - Param: 1
+    MinValue: 0
+    MaxValue: 1
+    RestingValue: 0
+    IsActive: 0
+    Owner: {fileID: 0}
+  - Param: 2
+    MinValue: 0
+    MaxValue: 0.005
+    RestingValue: 0
+    IsActive: 0
+    Owner: {fileID: 0}
+  - Param: 3
+    MinValue: 50
+    MaxValue: 5
+    RestingValue: 1000
+    IsActive: 0
+    Owner: {fileID: 0}
+  - Param: 4
+    MinValue: 15
+    MaxValue: 6
+    RestingValue: 30
+    IsActive: 0
+    Owner: {fileID: 0}
+  mats: []
 --- !u!1 &330585543
 GameObject:
   m_ObjectHideFlags: 0
@@ -241,6 +292,57 @@ MonoBehaviour:
   m_RequiresDepthTexture: 0
   m_RequiresColorTexture: 0
   m_Version: 2
+--- !u!1 &364414065 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 715ba7afbb60f03418d1d471975b4f37,
+    type: 3}
+  m_PrefabInstance: {fileID: 887611148}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &364414069
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 364414065}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d3c674de8d1eb604ab9b8cfd28565495, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  syncBand: 0
+  ReactorFacets:
+  - Param: 0
+    MinValue: 0
+    MaxValue: 1
+    RestingValue: 1
+    IsActive: 0
+    Owner: {fileID: 0}
+  - Param: 1
+    MinValue: 0
+    MaxValue: 1
+    RestingValue: 0
+    IsActive: 0
+    Owner: {fileID: 0}
+  - Param: 2
+    MinValue: 0
+    MaxValue: 0.0005
+    RestingValue: 0
+    IsActive: 0
+    Owner: {fileID: 0}
+  - Param: 3
+    MinValue: 100
+    MaxValue: 25
+    RestingValue: 3000
+    IsActive: 0
+    Owner: {fileID: 0}
+  - Param: 4
+    MinValue: 10
+    MaxValue: 3
+    RestingValue: 30
+    IsActive: 0
+    Owner: {fileID: 0}
+  mats: []
 --- !u!1 &507556890
 GameObject:
   m_ObjectHideFlags: 0
@@ -608,6 +710,57 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b3eaab52f57b25e4abb5fb25b1728261, type: 3}
+--- !u!1 &1240360692 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: b3eaab52f57b25e4abb5fb25b1728261,
+    type: 3}
+  m_PrefabInstance: {fileID: 1240360691}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1240360693
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1240360692}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d3c674de8d1eb604ab9b8cfd28565495, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  syncBand: 0
+  ReactorFacets:
+  - Param: 0
+    MinValue: 0
+    MaxValue: 1
+    RestingValue: 1
+    IsActive: 0
+    Owner: {fileID: 0}
+  - Param: 1
+    MinValue: 0
+    MaxValue: 1
+    RestingValue: 0
+    IsActive: 0
+    Owner: {fileID: 0}
+  - Param: 2
+    MinValue: 0
+    MaxValue: 0.0005
+    RestingValue: 0
+    IsActive: 0
+    Owner: {fileID: 0}
+  - Param: 3
+    MinValue: 100
+    MaxValue: 25
+    RestingValue: 3000
+    IsActive: 0
+    Owner: {fileID: 0}
+  - Param: 4
+    MinValue: 10
+    MaxValue: 3
+    RestingValue: 30
+    IsActive: 0
+    Owner: {fileID: 0}
+  mats: []
 --- !u!1 &1408483183
 GameObject:
   m_ObjectHideFlags: 0
@@ -762,6 +915,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: c5cebd4f52c63864ab6f6bec69a65893,
         type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c5cebd4f52c63864ab6f6bec69a65893,
+        type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -848,6 +1006,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: lipstick
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 6a8df1668c0a9b341a5489ff4192dd50,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 6a8df1668c0a9b341a5489ff4192dd50,
         type: 3}
@@ -1086,6 +1249,57 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
+--- !u!1 &1925922828 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: cd1f3116425dca64bb1492f466bac44b,
+    type: 3}
+  m_PrefabInstance: {fileID: 1969439368}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1925922832
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1925922828}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d3c674de8d1eb604ab9b8cfd28565495, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  syncBand: 0
+  ReactorFacets:
+  - Param: 0
+    MinValue: 0
+    MaxValue: 1
+    RestingValue: 1
+    IsActive: 0
+    Owner: {fileID: 0}
+  - Param: 1
+    MinValue: 0
+    MaxValue: 1
+    RestingValue: 0
+    IsActive: 0
+    Owner: {fileID: 0}
+  - Param: 2
+    MinValue: 0
+    MaxValue: 0.2
+    RestingValue: 0
+    IsActive: 0
+    Owner: {fileID: 0}
+  - Param: 3
+    MinValue: 200
+    MaxValue: 5
+    RestingValue: 3000
+    IsActive: 0
+    Owner: {fileID: 0}
+  - Param: 4
+    MinValue: 10
+    MaxValue: 2
+    RestingValue: 30
+    IsActive: 0
+    Owner: {fileID: 0}
+  mats: []
 --- !u!1001 &1927280323
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1177,6 +1391,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: mirror
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f41534e8cdad59744a24648f535bb1ba,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: f41534e8cdad59744a24648f535bb1ba,
         type: 3}
@@ -1315,7 +1534,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   audioSource: {fileID: 1995584624}
-  bufferDecayRate: 2
 --- !u!4 &1995584623
 Transform:
   m_ObjectHideFlags: 0
@@ -1522,7 +1740,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 19882377852cd5247b6d56d322071f8b,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 19882377852cd5247b6d56d322071f8b,
         type: 3}

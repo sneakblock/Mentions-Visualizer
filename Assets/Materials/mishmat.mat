@@ -126,7 +126,7 @@ Material:
     - _glow_noise_scale: 217
     - _glow_timescale: 1
     - _metallic: 0
-    - _noise_rotation_speed: 4.91
+    - _noise_rotation_speed: 45
     - _smoothness: 0
     - _sparkle_intensity: 7.4
     - _sparkle_noise_scale: 1

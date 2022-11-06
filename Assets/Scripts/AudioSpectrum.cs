@@ -5,7 +5,6 @@ using UnityEngine;
 public class AudioSpectrum : MonoBehaviour
 {
     public AudioSource audioSource;
-    public float bufferDecayRate = 2f;
     private const int _samples = 512;
 
     private static float[] _spectrumData;
@@ -79,7 +78,7 @@ public class AudioSpectrum : MonoBehaviour
             if (FreqBands[i] < BandBuffer[i])
             {
                 BandBuffer[i] -= _bufferDecrease[i];
-                _bufferDecrease[i] *= bufferDecayRate * Time.deltaTime;
+                _bufferDecrease[i] *= 1.2f;
             }
         }
     }
