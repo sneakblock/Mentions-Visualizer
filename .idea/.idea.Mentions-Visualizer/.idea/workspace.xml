@@ -2,12 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8d188c23-cf3b-40c8-be6a-f8c4bb851965" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/MusicReactorLight.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MusicReactorLight.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ClickToChange.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ClickToChange.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/LookLocker.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/LookLocker.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Quitter.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Quitter.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Mentions-Visualizer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Mentions-Visualizer/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/metal.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/metal.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/mirror.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/mirror.mat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Settings/SampleSceneProfile.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/SampleSceneProfile.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/BurstAotSettings_StandaloneWindows.json" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/BurstAotSettings_StandaloneWindows.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/CommonBurstAotSettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/CommonBurstAotSettings.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,7 +20,9 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/LookLocker.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/MusicReactorLight.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Quitter.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ReactorFacet.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -41,6 +48,14 @@
   }
 }</component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Standalone Player" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="$USER_HOME$/My Drive/mentionsbuild\Mentions Visualizer.exe" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="C:\Users\sneak\My Drive\mentionsbuild" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <method v="2" />
+    </configuration>
     <configuration name="UnitTests (batch mode)" type="RunUnityExe" factoryName="Unity Executable">
       <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\2021.3.9f1\Editor\Unity.exe" />
       <option name="PROGRAM_PARAMETERS" value="-runTests -batchmode -projectPath C:\Users\sneak\Documents\Mentions-Visualizer -testResults Logs/results.xml -testPlatform EditMode -debugCodeOptimization" />
@@ -80,7 +95,8 @@
       <updated>1667695818582</updated>
       <workItem from="1667695833536" duration="1000" />
       <workItem from="1667759767663" duration="6079000" />
-      <workItem from="1667787507222" duration="1131000" />
+      <workItem from="1667787507222" duration="1987000" />
+      <workItem from="1667855434078" duration="1637000" />
     </task>
     <servers />
   </component>
